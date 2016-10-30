@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+    <!-- dependencies -->
+    <script type="text/javascript" src="lib/jquery/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/rsvp/rsvp-2.0.4.js"></script>
+    <script type="text/javascript" src="lib/renderjs/renderjs-0.10.0.min.js"></script>
+    <!-- gadget scripts -->
+    <script src="js/timeSelectorGadget.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+      <td><button class="btn-sm btn-success time-selector time-Day" >Day</button></td>
+      <td><button class="btn-sm btn-primary time-selector time-Week" >Week</button></td>
+      <td><button class="btn-sm btn-primary time-selector time-Month" >Month</button></td>
+      <td><button class="btn-sm btn-primary time-selector time-Quarter" >Quarter</button>&nbsp;</td>
+      <td><button class="btn-sm btn-primary offset-selector"> &lt;&lt; </button></td>
+      <td><button class="btn-sm btn-primary offset-selector"> &lt; </button></td>
+      <td>&nbsp;<div class="date-selected"></div>&nbsp;</td>
+      <td><button class="btn-sm btn-primary offset-selector"> &gt; </button></td>
+      <td><button class="btn-sm btn-primary offset-selector"> &gt;&gt; </button></td>
+      </tr>
+    </table>
+  </body>
+</html>
